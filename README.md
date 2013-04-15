@@ -1,0 +1,4 @@
+webinos-widget
+==============
+
+Widget Manager
