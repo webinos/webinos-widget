@@ -10,11 +10,12 @@
    },
   "directories": {
    "lib":"./lib",
-   "test":"./test"
+   "node_modules": "./node_modules"
   },
   "dependencies":{
    "crypt" : "0.0.x",
    "jade" : "0.x.x"
-  }
+  },
+  "bundleDependencies":["xmldigsig.js","expat2.js"]
 }
 
