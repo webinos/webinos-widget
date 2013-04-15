@@ -1,7 +1,7 @@
-{ "name": "webinos-widget,
+{ "name": "webinos-widget",
   "version": "0.8.0",
   "description": "Webinos Widget",
-  "author": "Paddy Byers",  
+  "author": "Paddy Byers, Toby Ealden",  
   "homepage": "http://www.webinos.org",
   "bugs": "http://jira.webinos.org",
   "repositories": 
