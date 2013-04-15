@@ -1,7 +1,7 @@
 { "name": "webinos-widget",
   "version": "0.8.0",
   "description": "Webinos Widget",
-  "author": "Paddy Byers, Toby Ealden",  
+  "author": ["Paddy Byers","Toby Ealden"],  
   "homepage": "http://www.webinos.org",
   "bugs": "http://jira.webinos.org",
   "repositories": 
@@ -9,7 +9,8 @@
      "url": "git://github.com/webinos/webinos-widget.git"
    },
   "directories": {
-   "./lib", "./test"
+   "lib":"./lib",
+   "test":"./test"
   },
   "dependencies":{
    "crypt" : "0.0.x",
