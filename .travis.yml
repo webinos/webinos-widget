@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "0.8"
+  - "0.10"
+install: npm install --save-dev
+before_install:
+ - npm i -g jasmine-node node-gyp
+ - mkdir ./tmp_node_modules
+ - mv ./node_modules/*.js ./tmp_node_modules/
+before_script:
+ - mv ./tmp_node_modules/* ./node_modules/
+ - rm -rf ./tmp_node_modules/
