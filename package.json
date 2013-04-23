@@ -14,8 +14,17 @@
   },
   "dependencies":{
    "crypt" : "0.0.x",
+   "data2xml" : "0.8.x",
+   "xml2js" : "0.x.x",
    "jade" : "0.x.x"
   },
-  "bundleDependencies":["xmldigsig.js","expat2.js"]
+  "engines":
+  { "node": ">= 0.6.0",
+    "npm": ">= 1.1.17"
+  },
+  "bundleDependencies":["xmldigsig.js","expat2.js"],
+  "scripts": {
+    "test": "jasmine-node ./test/jasmine/"
+  }
 }
 
