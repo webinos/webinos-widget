@@ -13,10 +13,11 @@
    "node_modules": "./node_modules"
   },
   "dependencies":{
-   "crypt" : "0.0.x",
-   "data2xml" : "0.8.x",
-   "xml2js" : "0.x.x",
-   "jade" : "0.x.x"
+    "xml2js": "0.x.x",
+    "node-expat": "2.x",
+    "zipfile": "0.3.x",
+    "express" : "3.x",
+    "jade" : "0.x.x"
   },
   "engines":
   { "node": ">= 0.6.0",
