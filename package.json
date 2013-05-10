@@ -13,11 +13,6 @@
    "node_modules": "./node_modules"
   },
   "dependencies":{
-    "xml2js": "0.x.x",
-    "node-expat": "2.x",
-    "zipfile": "0.3.x",
-    "express" : "3.x",
-    "jade" : "0.x.x"
   },
   "engines":
   { "node": ">= 0.6.0",
