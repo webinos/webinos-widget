@@ -4,7 +4,7 @@
   "author": ["Paddy Byers","Toby Ealden"],  
   "homepage": "http://www.webinos.org",
   "bugs": "http://jira.webinos.org",
-  "repositories": { 
+  "repository": { 
 	"type": "git",
 	"url": "git://github.com/webinos/webinos-widget.git"
    },
