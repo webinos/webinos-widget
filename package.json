@@ -4,20 +4,25 @@
   "author": ["Paddy Byers","Toby Ealden"],  
   "homepage": "http://www.webinos.org",
   "bugs": "http://jira.webinos.org",
-  "repositories": 
-   { "type": "git",
-     "url": "git://github.com/webinos/webinos-widget.git"
+  "repositories": { 
+	"type": "git",
+	"url": "git://github.com/webinos/webinos-widget.git"
    },
   "directories": {
-   "lib":"./lib",
-   "node_modules": "./node_modules"
+	"lib":"./lib",
+	"node_modules": "./node_modules"
   },
   "dependencies":{
-   "zipfile":"https://github.com/andreasbotsikas/node-zipfile/tarball/webinos"
+	"zipfile":"https://github.com/andreasbotsikas/node-zipfile/tarball/webinos",
+	"xml2js": "0.2.x",
+	"data2xml": "0.8.x"
   },
-  "engines":
-  { "node": ">= 0.6.0",
-    "npm": ">= 1.1.17"
+  "devDependencies" : {
+	"jasmine-node": "~1.7.0"
+  },
+  "engines": { 
+	"node": ">= 0.6.0",
+	"npm": ">= 1.1.17"
   },
   "bundleDependencies":["xmldigsig.js","expat2.js"],
   "scripts": {
