@@ -13,6 +13,7 @@
    "node_modules": "./node_modules"
   },
   "dependencies":{
+   "zipfile":"https://github.com/andreasbotsikas/node-zipfile/tarball/webinos"
   },
   "engines":
   { "node": ">= 0.6.0",
