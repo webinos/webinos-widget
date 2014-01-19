@@ -19,9 +19,6 @@
    "data2xml": "0.8.x",
    "node-expat": ">= 2.0.0"
   },
-  "optionalDependencies": {
-   "dcrypt": "x.x.x"
-  },
   "devDependencies" : {  
    "jasmine-node": "~1.7.0"  
   },
