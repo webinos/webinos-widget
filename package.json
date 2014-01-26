@@ -17,10 +17,8 @@
    "zipfile": ">= 0.4.1",
    "xml2js": "0.2.x",  
    "data2xml": "0.8.x",
-   "node-expat": ">= 2.0.0"
-  },
-  "optionalDependencies": {
-   "dcrypt": "x.x.x"
+   "node-expat": ">= 2.0.0",
+   "webinos-certificateHandler": "git://github.com/webinos/webinos-certificateHandler"
   },
   "devDependencies" : {  
    "jasmine-node": "~1.7.0"  
