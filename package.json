@@ -13,7 +13,6 @@
    "node_modules": "./node_modules"
   },
   "dependencies":{
-   "webinos-utilities": "git://github.com/webinos/webinos-utilities.git",
    "zipfile": ">= 0.4.1",
    "xml2js": "0.2.x",  
    "data2xml": "0.8.x",
